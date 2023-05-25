@@ -10,13 +10,6 @@ export const SectionStat = styled.section`
   background-color: #fffff0;
 `;
 
-export const StatTitle = styled.h2`
-  padding: 60px 0;
-  color: #2f4f4f;
-  font-size: 28px;
-  text-transform: uppercase;
-`;
-
 export const StatList = styled.ul`
   display: flex;
   align-items: center;
@@ -56,6 +49,14 @@ export const StatLabel = styled.span`
   font-size: 15px;
   color: #faf0e6;
 `;
+
+export const StatTitle = styled.h2`
+  padding: 60px 0;
+  color: #2f4f4f;
+  font-size: 28px;
+  text-transform: uppercase;
+`;
+
 
 export const StatPercent = styled.span`
   font-size: 25px;
